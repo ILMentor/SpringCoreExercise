@@ -7,7 +7,10 @@
     <context:property-placeholder location="musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="empire.of.lord.ClassicalMusic">
+          class="empire.of.lord.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
