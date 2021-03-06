@@ -3,6 +3,6 @@ package empire.of.lord;
 public class ClassicalMusic implements Music{
     @Override
     public String getSong() {
-        return "RhapsodyRock";
+        return "Rhapsody";
     }
 }
