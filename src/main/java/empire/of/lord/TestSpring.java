@@ -19,6 +19,10 @@ public class TestSpring {
         System.out.println(firstMusicPlayer); // использование метода toString() по-умолчанию, т.к. он не прописан в классе
         System.out.println(secondMusicPlayer);
 
+        firstMusicPlayer.setVolume(10);
+
+        System.out.println(firstMusicPlayer.getVolume());
+        System.out.println(secondMusicPlayer.getVolume());
         context.close();
     }
 }
