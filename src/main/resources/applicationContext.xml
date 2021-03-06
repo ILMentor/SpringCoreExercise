@@ -6,4 +6,9 @@
     <bean id="musicBean"
           class="empire.of.lord.ClassicalMusic">
     </bean>
+
+    <bean id="musicPlayer"
+          class="empire.of.lord.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
 </beans>
