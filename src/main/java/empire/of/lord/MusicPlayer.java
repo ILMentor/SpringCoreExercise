@@ -1,10 +1,10 @@
 package empire.of.lord;
 
 public class MusicPlayer {
-    private ClassicalMusic classicalMusic;
+    private Music music;
 
     public void playMusic(){
-        classicalMusic = new ClassicalMusic();
-        classicalMusic.getSong();
+        music = new ClassicalMusic();
+        music.getSong();
     }
 }
