@@ -1,0 +1,2 @@
+# SpringCoreExercise
+Learning Spring framework
