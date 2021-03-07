@@ -10,7 +10,6 @@
     <bean id="musicPlayer"
           class="empire.of.lord.MusicPlayer"
           scope="prototype">
-        <property name="music" ref="musicBean"/>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
     </bean>
