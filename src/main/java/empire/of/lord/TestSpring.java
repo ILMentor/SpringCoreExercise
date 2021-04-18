@@ -1,5 +1,7 @@
 package empire.of.lord;
 
+import empire.of.lord.config.SpringConfig;
+import empire.of.lord.device.MusicPlayer;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class TestSpring {

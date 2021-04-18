@@ -1,12 +1,10 @@
-package empire.of.lord;
-
-import org.springframework.stereotype.Component;
+package empire.of.lord.music;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 
-public class ClassicalMusic implements Music{
+public class ClassicalMusic implements Music {
 
     @PostConstruct
     public void doMyInit(){

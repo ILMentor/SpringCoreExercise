@@ -1,7 +1,10 @@
-package empire.of.lord;
+package empire.of.lord.config;
 
+import empire.of.lord.music.ClassicalMusic;
+import empire.of.lord.device.Computer;
+import empire.of.lord.device.MusicPlayer;
+import empire.of.lord.music.RockMusic;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 

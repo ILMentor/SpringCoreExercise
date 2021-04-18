@@ -1,9 +1,8 @@
-package empire.of.lord;
+package empire.of.lord.device;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import empire.of.lord.music.Music;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 
 public class MusicPlayer {
